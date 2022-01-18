@@ -1,19 +1,74 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #292929;
+  font-weight: bold;
+}
+
+.card-title a {
+  color: #292929 !important;
+  text-decoration: none !important;
+}
+
+div, p {
+  font-size: 0.9rem;
+}
+
+.btn {
+  font-size: 0.9rem !important;
+}
+
+.btn-primary {
+  background: rgb(20, 63, 80) !important;
+  border-color: rgb(20, 63, 73) !important;
+}
+
+.btn-primary:hover {
+  background: rgb(59, 154, 192) !important;
+  border-color: rgb(59, 154, 192) !important;
+}
+
+.btn-secondary:hover {
+  background: rgb(59, 154, 192) !important;
+  border-color: rgb(59, 154, 192) !important;
+}
+
+.card {
+  border: 0 !important;
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background: none !important;
+  width: 100% !important;
+  /* display: flex !important; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.main-wrapper {
+  width: auto !important;
+  display: block;
+  margin-left: 280px !important;
+  background: #fff !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media only screen and  (max-width: 991.98px) {
+  .main-wrapper {
+    margin-left: 0 !important;
+}
 }
 
-.App-header {
+@media only screen and (max-width: 768.17px) {
+  .main-wrapper {
+    margin-left: 0 !important;
+    width: auto !important;
+}
+}
+
+
+
+
+
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,13 +81,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+} */
