@@ -9,9 +9,9 @@
     height: 100vh;
     width: 280px !important;
     color: #fff;
-    /* overflow-y: auto !important; */
-    /* scrollbar-color: rgb(2, 2, 26) !important;
-    scrollbar-width: 1px !important; */
+    overflow-y: auto !important;
+    scrollbar-color: rgb(2, 2, 26) !important;
+    scrollbar-width: 1px !important;
 }
 .navview {
     display:flex !important;

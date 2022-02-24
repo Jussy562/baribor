@@ -8,6 +8,13 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none !important;
 }
 
+.card-img{
+  width: 100% !important;
+  height: 90% !important;
+  /* object-fit: cover !important; */
+  image-rendering: pixelated !important;
+}
+
 div, p {
   font-size: 0.9rem;
 }

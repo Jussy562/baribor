@@ -71,8 +71,8 @@ function Header() {
                         </div>
                     <Nav className="flex-column text-start">
                         <Nav.Link to='/' href="/" className=" menu active">
-                                <FaUserAlt className='me-2'/>
-                                About Me
+                            <FaUserAlt className='me-2'/>
+                            About Me
                         </Nav.Link>
                         <Nav.Link to='/portfolio' href="/portfolio" className='menu'>
                             <BsLaptop className='me-2' />

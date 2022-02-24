@@ -1,8 +1,12 @@
 import React from 'react';
+import Projects from '../project';
+import ProjectShow from './projectShow';
 import { BsArrowRightCircleFill } from 'react-icons/bs';
 import { HiDocumentText } from 'react-icons/hi';
+// import { useState } from 'react';
 
 function About() {
+    
     return (
         <div className='about  col-xm-12 col-sm-12 col-md-12 main-wrapper'>
             <section className='about-me-section p-3 p-lg-5  about-plate'>
@@ -63,13 +67,13 @@ function About() {
                     <div className='section-intro mb-5'>
                         I build scalabe applications for clients all over the 
                         world. Below is a quick overview of my main technical 
-                        skill sets. I\f you want find out more about my experience, check out my  
-                         <a className='text-link' href='google.com'>
-                             online resume 
-                        </a> 
-                         and <a className='text-link' href='google.com'>
+                        skill sets. If you want to find out more about my experience, check out my 
+                        <span> <a className='text-link' href='google.com'>
+                            online resume 
+                        </a> </span>  
+                         and <span><a className='text-link' href='google.com'>
                             project portfolio
-                        </a>.
+                        </a></span>.
                     </div>
                     <div className='row'>
                         <div className='item col-6 col-lg-3'>
@@ -215,6 +219,14 @@ function About() {
                         Featured Projects
                     </h2>
                     <div className='row'>
+                        {
+                            Projects.slice(0, 4).map((item) => (
+                                <ProjectShow key={item.id} item={item}  /> 
+                            ))
+                        }
+                    </div>
+                    
+                    {/* <div className='row'>
                         <div className='col-md-6 mb-5'>
                             <div className='card project-card'>
                                 <div className='row no-gutters'>
@@ -300,7 +312,7 @@ function About() {
                         </div>
 
                        
-                    </div>
+                    </div> */}
                     <div className='text-center py-3'>
                         <a href='google.com' className='btn btn-primary'>
                             View Portfolio
