@@ -29,7 +29,7 @@ function Header() {
                     
                     <Navbar.Collapse id="basic-navbar-nav" className='flex-column'>
                     <div className='profile-section pt-3 pt-lg-0'>
-                            <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile.jpg' alt='profile' />
+                            <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile-pic.png' alt='profile' />
                             <div className='bio mb-3'>
                                 Hi, my name is Baribor Paago and I'm a software engineer.
                                 Welcome to my personal website!

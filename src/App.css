@@ -3,6 +3,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+p {
+  color: rgb(58, 57, 57) !important;
+  font-size: 0.99rem !important;
+}
+
 .card-title a {
   color: #292929 !important;
   text-decoration: none !important;
@@ -55,6 +60,23 @@ div, p {
   display: block;
   margin-left: 280px !important;
   background: #fff !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, rgb(20, 63, 80)) !important;
+  border-radius: 15px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, rgb(59, 154, 192)) !important;
+}
+
+::-webkit-scrollbar-track {
+  background: whitesmoke !important;
 }
 
 @media only screen and  (max-width: 991.98px) {

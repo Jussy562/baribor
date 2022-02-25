@@ -12,6 +12,7 @@
     overflow-y: auto !important;
     scrollbar-color: rgb(2, 2, 26) !important;
     scrollbar-width: 1px !important;
+    scroll-behavior: smooth !important;
 }
 .navview {
     display:flex !important;

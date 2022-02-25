@@ -21,15 +21,17 @@ function About() {
                                 Software Engineer
                             </div>
                             <div className='bio mb-4'>
-                                I'm a software engineer with frontend development 
-                                skills for scalable wep applications. I write about software and tech
-                                on <a className='text-link' href='google.com'>
-                                    my blog
-                                </a>. Check out my project <a className='text-link' href='google.com'>
-                                    portfolio
-                                </a> and my <a className='text-link' href='google.com'>
-                                    online rsume
-                                </a>.
+                                <p className='m-0 p-0'>
+                                    I'm a software engineer with frontend development 
+                                    skills for scalable wep applications. I write about software and tech
+                                    on <a className='text-link' href='google.com'>
+                                        my blog
+                                    </a>. Check out my project <a className='text-link' href='Portfolio.js'>
+                                        portfolio
+                                    </a> and my <a className='text-link' href='/Resume.js'>
+                                        online rsume
+                                    </a>.
+                                </p>
                             </div>
 
                             <div className='mb-4'>
@@ -65,15 +67,17 @@ function About() {
                     </h2>
 
                     <div className='section-intro mb-5'>
-                        I build scalabe applications for clients all over the 
-                        world. Below is a quick overview of my main technical 
-                        skill sets. If you want to find out more about my experience, check out my 
-                        <span> <a className='text-link' href='google.com'>
-                            online resume 
-                        </a> </span>  
-                         and <span><a className='text-link' href='google.com'>
-                            project portfolio
-                        </a></span>.
+                        <p className='m-0 p-0'>
+                            I build scalabe applications for clients all over the 
+                            world. Below is a quick overview of my main technical 
+                            skill sets. If you want to find out more about my experience, check out my 
+                            <span> <a className='text-link' href='/resume.js'>
+                                online resume 
+                            </a> </span>  
+                            and <span><a className='text-link' href='/portfolio.js'>
+                                project portfolio
+                            </a></span>.
+                        </p>
                     </div>
                     <div className='row'>
                         <div className='item col-6 col-lg-3'>
