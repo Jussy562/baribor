@@ -9,7 +9,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio.js';
 import Resume from './components/Resume';
-
+import Contact from "./components/Contact";
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
             <Route path='/' element={<About />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/resume' element={<Resume />} />
+            <Route path='/contact' element={<Contact />} />
             
           </Routes>
           
