@@ -23,7 +23,7 @@ function About() {
                             <div className='bio mb-4'>
                                 <p className='m-0 p-0'>
                                     I'm a software engineer with frontend development 
-                                    skills for scalable wep applications. I write about software and tech
+                                    skills for scalable web applications. I write about software and tech
                                     on <a className='text-link' href='google.com'>
                                         my blog
                                     </a>. Check out my project <a className='text-link' href='Portfolio.js'>

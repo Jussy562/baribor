@@ -103,7 +103,7 @@ function Header() {
                                 <FaPaperPlane className='me-2' />
                                 Hire Me
                             </a>
-                        </div>
+                    </div>
                     </Navbar.Collapse>
                 </Navbar>
             

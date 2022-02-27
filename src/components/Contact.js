@@ -4,6 +4,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import  { FaGithubSquare } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
+import { FaPaperPlane } from 'react-icons/fa';
 
 function Contact() {
   return (
@@ -51,6 +52,16 @@ function Contact() {
                   </li>
                 </ul>
                 {/* End of social handles */}
+
+                <p>For instant response</p>
+                <div className='col-12 '>
+                  <a className='btn btn-primary mx-auto'
+                    href='google.com' target='_blank'>
+                      WhatsApp Me
+                      <FaPaperPlane className='me-2' />
+                        
+                  </a>
+                </div>
 
             </div>
         </section>

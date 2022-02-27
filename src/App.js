@@ -3,6 +3,7 @@ import './App.css';
 import './Header.css';
 import './Resume.css';
 import './About.css';
+import './Contact.css';
 import './bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
