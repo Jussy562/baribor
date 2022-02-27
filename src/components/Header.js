@@ -22,7 +22,7 @@ function Header() {
                 
                 <Navbar bg="dark" expand="lg" className='flex-column mynav'>
                     <div className='navview'>
-                        <h1 className='blog-name pt-lg-4 mb-0'>BARIBOR PAAGO</h1>
+                        <h1 className='blog-name pt-lg-4 mb-0 mx-auto'>BARIBOR PAAGO</h1>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     </div>
                     
