@@ -99,7 +99,7 @@ function Header() {
 
                     <div className='my-2'>
                             <a className='btn btn-primary'
-                            href='google.com' target='_blank'>
+                            href='Contact.js' target='_blank'>
                                 <FaPaperPlane className='me-2' />
                                 Hire Me
                             </a>

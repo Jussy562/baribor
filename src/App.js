@@ -11,6 +11,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio.js';
 import Resume from './components/Resume';
 import Contact from "./components/Contact";
+import Blog from "./components/Blog";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/resume' element={<Resume />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/blog' element={<Blog />} />
             
           </Routes>
           

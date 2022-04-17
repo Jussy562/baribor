@@ -4,17 +4,17 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import  { FaGithubSquare } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
-import { FaPaperPlane } from 'react-icons/fa';
+import { RiWhatsappLine } from 'react-icons/ri';
 
 function Contact() {
   return (
     <div className='contact  col-xm-12 col-sm-12 col-md-12 main-wrapper'>
         <section className='about-me-section theme-bg-light py-5'>
-            <div className='container text-center single-col-max-width'>
+            <div className='container text-center single-col-max-width px-5'>
                 <h2 className='heading'>Contact</h2>
                 <p>Interested in hiring me for your project or employ me for a frontend developer role in your company? 
                   You can fill the contact form below or send an email to
-                  <span><a className='text-link' href='mailto:#'>
+                   <span> <a className='text-link' href='mailto:#'>
                           bariborpaago@gmail.com
                         </a>
                   </span>
@@ -53,7 +53,7 @@ function Contact() {
                 </ul>
                 {/* End of social handles */}
 
-                <p>For instant response</p>
+                {/* <p>For instant response</p>
                 <div className='col-12 '>
                   <a className='btn btn-primary mx-auto'
                     href='google.com' target='_blank'>
@@ -61,7 +61,7 @@ function Contact() {
                       <FaPaperPlane className='me-2' />
                         
                   </a>
-                </div>
+                </div> */}
 
             </div>
         </section>
@@ -72,12 +72,12 @@ function Contact() {
                 Get In Touch
               </h3>
               <div className='row g-3'>
-                <div className='col-12 col-md-6'>
+                <div className='col-12 col-xlg-6'>
                   <label className='sr-only' for='cname'>Name</label>
                   <input type='text' className='form-control' id='cname' name='name' placeholder='Name' minLength={2} required aria-required='true' />
                 </div>
 
-                <div className='col-12 col-md-6'>
+                <div className='col-12 col-xlg-6'>
                   <label className='sr-only' for='cemail'>Email</label>
                   <input type='email' className='form-control' placeholder='Email' required aria-required='true'/>
                 </div>
@@ -94,6 +94,14 @@ function Contact() {
             
           </div>
         </section>
+        <a href='https://wa.me/2349035401231' 
+          target="_blank"
+          className='whatsapp'
+          rel="noopener noreferrer"
+          >
+
+          <RiWhatsappLine className='whatsapp-icon' />
+        </a>
     </div>
   )
 }
