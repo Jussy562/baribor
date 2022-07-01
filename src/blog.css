@@ -1,0 +1,12 @@
+.blog-plate {
+    background: whitesmoke !important;
+}
+
+.card-body {
+    background: whitesmoke !important;
+}
+
+.card-footer {
+    background: none !important;
+    border: none !important;
+}

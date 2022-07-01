@@ -7,11 +7,12 @@ import { HiDocumentText } from 'react-icons/hi';
 
 function About() {
     
+    
     return (
         <div className='about  col-xm-12 col-sm-12 col-md-12 main-wrapper'>
             <section className='about-me-section p-3 p-lg-5  about-plate'>
                 <div className='container'>
-                    <div className='profile-teaser row'>
+                    <div className='about-profile-teaser row'>
                         <div className='col'>
                             <h2 className='name font-weight-bold mb-1'>
                                 Baribor Paago
@@ -30,7 +31,19 @@ function About() {
                                         portfolio
                                     </a> and my <a className='text-link' href='/Resume.js'>
                                         online rsume
-                                    </a>.
+                                    </a>.<br/>
+                                    I have previously
+                                    served as an Data entry personnel and later as front-end intern developer
+                                    at
+                                    MeshView Limited. I adopt a SCRUM/AGILE approach to software development
+                                    and I have been lucky to work with some of the latest technologies in web development, 
+                                    I implemented a front-end
+                                    development cycle at MeshView that helped speed up software development speed by 30%, 
+                                    at Fairexx 
+                                    I am automating most of the manual tasks and 
+                                    increasing productivity by approx 20%, I 
+                                    haveknowledge of multiple high-level programming 
+                                    languages and can work withmodern software development tools and frameworks, I am a fast learner.
                                 </p>
                             </div>
 
@@ -52,8 +65,8 @@ function About() {
 
                         </div>
                         <div className='col-md-5 col-lg-5'>
-                            <img className='profile-image img-fluid mb-3 mb-lg-0
-                            me-md-0' src='./images/profile.jpg' alt='image0' />
+                            <img className='about-profile-image img-fluid mb-3 mb-lg-0
+                            me-md-0 ' src='./images/profile.jpg' alt='image0' />
                         </div>
                     </div>
                 </div>
@@ -71,10 +84,10 @@ function About() {
                             I build scalabe applications for clients all over the 
                             world. Below is a quick overview of my main technical 
                             skill sets. If you want to find out more about my experience, check out my 
-                            <span> <a className='text-link' href='/resume.js'>
+                            <span> <a className='text-link' to='resume' href='/resume'>
                                 online resume 
                             </a> </span>  
-                            and <span><a className='text-link' href='/portfolio.js'>
+                            and <span><a className='text-link' to='/portfolio' href='/portfolio'>
                                 project portfolio
                             </a></span>.
                         </p>
@@ -100,8 +113,8 @@ function About() {
                                 </div>
                                 <h3 className='item-title'>React</h3>
                                 <div className='item-desc'>
-                                    <p>JavaScript helps me to provide 
-                                        interactivity or funnctionalities</p>
+                                    <p>React is a JavaScript open-source library for building user interfaces. 
+                                    It allows you to write JavaScript inside HTML</p>
                                 </div>
                             </div>
                         </div>
@@ -113,8 +126,8 @@ function About() {
                                 </div>
                                 <h3 className='item-title'>Bootstrap</h3>
                                 <div className='item-desc'>
-                                    <p>JavaScript helps me to provide 
-                                        interactivity or funnctionalities</p>
+                                    <p>Bootstrap is a CSS framework. 
+                                    This frameworks makes it easier to create responsive designs and save time to write custom CSS</p>
                                 </div>
                             </div>
                         </div>
@@ -126,8 +139,10 @@ function About() {
                                 </div>
                                 <h3 className='item-title'>CSS</h3>
                                 <div className='item-desc'>
-                                    <p>JavaScript helps me to provide 
-                                        interactivity or funnctionalities</p>
+                                    <p>I used CSS to style my web pages/element. 
+                                        It is important to known how to write CSS 
+                                        even if you have frameworks to make develop easier.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -139,8 +154,7 @@ function About() {
                                 </div>
                                 <h3 className='item-title'>HTML</h3>
                                 <div className='item-desc'>
-                                    <p>JavaScript helps me to provide 
-                                        interactivity or funnctionalities</p>
+                                    <p>HTML allows me to place element on the web page</p>
                                 </div>
                             </div>
                         </div>
@@ -152,8 +166,8 @@ function About() {
                                 </div>
                                 <h3 className='item-title'>Node.js</h3>
                                 <div className='item-desc'>
-                                    <p>JavaScript helps me to provide 
-                                        interactivity or funnctionalities</p>
+                                    <p>Node.js is used to develop the backend of applications in JavaScript.
+                                         Applications built with node,js are scalable and faster.</p>
                                 </div>
                             </div>
                         </div>
@@ -165,8 +179,7 @@ function About() {
                                 </div>
                                 <h3 className='item-title'>Figma</h3>
                                 <div className='item-desc'>
-                                    <p>JavaScript helps me to provide 
-                                        interactivity or funnctionalities</p>
+                                    <p>Figma is one of the tool used to design web Applications.</p>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +191,7 @@ function About() {
                     </div>
 
                     <div className='text-center py-3'>
-                        <a href='google.com' className='btn btn-primary'>
+                        <a to='/Service' href='/Service' className='btn btn-primary'>
                             Services
                         </a>
                     </div>
@@ -318,18 +331,18 @@ function About() {
                        
                     </div> */}
                     <div className='text-center py-3'>
-                        <a href='google.com' className='btn btn-primary'>
+                        <a to='/portfolio' href='/portfolio' className='btn btn-primary'>
                             View Portfolio
                         </a>
 
                     </div>
                 </div>
             </section>
-            <div className='container'>
+            {/* <div className='container'>
                 <hr />
-            </div>
+            </div> */}
 
-            <section className='blog-section p-3 p-lg-5'>
+            {/* <section className='blog-section p-3 p-lg-5'>
                 <div className='container'>
                     <h2 className='section-title font-weight-bold mb-5'>
                         
@@ -424,6 +437,35 @@ function About() {
                     </div>
                 </div>
                 
+            </section> */}
+            <section className='contact-section px-3 py-5 p-md-5'>
+                <div className='container'>
+                    <form id='contact-form' className='contact-form col-lg-8 mx-lg-auto' method='post' action>
+                    <h3 className='text-center mb-3'>
+                        Get In Touch
+                    </h3>
+                    <div className='row g-3'>
+                        <div className='col-12 col-xlg-6'>
+                        <label className='sr-only' for='cname'>Name</label>
+                        <input type='text' className='form-control' id='cname' name='name' placeholder='Name' minLength={2} required aria-required='true' />
+                        </div>
+
+                        <div className='col-12 col-xlg-6'>
+                        <label className='sr-only' for='cemail'>Email</label>
+                        <input type='email' className='form-control' placeholder='Email' required aria-required='true'/>
+                        </div>
+                        <div className='col-12'>
+                        <label className='sr-only' for='cmessage'>Your message</label>
+                        <textarea className='form-control' id='cmessage' name='message' placeholder='Enter your message...'
+                        rows='10' required aria-required='true'></textarea>
+                        </div>
+                        <div className='form-group col-12'>
+                        <button type='submit' className='btn btn-block btn-primary py-2'>Send Now</button>
+                        </div>
+                    </div>
+                    </form>
+                    
+                </div>
             </section>
             
         </div>

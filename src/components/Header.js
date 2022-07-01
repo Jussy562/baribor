@@ -10,11 +10,15 @@ import { BsLaptop } from 'react-icons/bs';
 import { MdHomeRepairService } from 'react-icons/md';
 import { HiDocumentText } from 'react-icons/hi';
 import { GrContactInfo } from 'react-icons/gr';
-import { FaBlog } from 'react-icons/fa';
+//The future plan is to incoorperate a blog in my portfolio. for now, I have to coment the blog page
+// import { FaBlog } from 'react-icons/fa';
 import { FaPaperPlane } from 'react-icons/fa';
 // import { FaAdjust } from 'react-icons/fa';
 
 function Header() {
+    const handleChange = (e) => {
+        e.preventDevault();
+    }
     return (
        <header className='Header'>
            
@@ -36,13 +40,13 @@ function Header() {
                             </div>
                             <ul className='social-list list-inline py-2 mx-auto'>
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago'>
+                                    <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
                                         <AiFillTwitterSquare className='myhandles' />
                                     </a>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.linkedin/in/bariborpaago' target={'_blank'}>
+                                    <a href='www.linkedin/in/bariborpaago' target={'_blank'} rel='noopener noreferrer'>
                                         <AiFillLinkedin className='myhandles' />
                                     </a>
                                 </li>
@@ -54,13 +58,13 @@ function Header() {
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago'>
+                                    <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
                                         <FaFacebookSquare className='myhandles' />
                                     </a>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago'>
+                                    <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
                                         <FaInstagramSquare className='myhandles' />
                                     </a>
                                 </li>
@@ -70,36 +74,36 @@ function Header() {
 
                         </div>
                     <Nav className="flex-column text-start">
-                        <Nav.Link to='/' href="/" className=" menu active">
+                        <Nav.Link to='/' href="/" className=" menu active" onClick={handleChange}>
                             <FaUserAlt className='me-2'/>
                             About Me
                         </Nav.Link>
-                        <Nav.Link to='/portfolio' href="/portfolio" className='menu'>
+                        <Nav.Link to='/portfolio' href="/portfolio" className='menu' onClick={handleChange}>
                             <BsLaptop className='me-2' />
                             Portfolio
                         </Nav.Link>
-                        <Nav.Link to='/resume' href="/resume" className='menu'>
+                        <Nav.Link to='/resume' href="/resume" className='menu' onClick={handleChange}>
                             <HiDocumentText className='me-2' />
                             Resume
                         </Nav.Link>
-                        <Nav.Link to='/services' href="/service" className='menu'>
+                        <Nav.Link to='/services' href="/service" className='menu'onClick={handleChange}>
                             <MdHomeRepairService className='me-2' />
                             Services
                         </Nav.Link>
-                        <Nav.Link to='/contact' href="/contact" className='menu'>
+                        <Nav.Link to='/contact' href="/contact" className='menu' onClick={handleChange}>
                             <GrContactInfo className='me-2'/>
                             Contact
                         </Nav.Link>
-                        <Nav.Link to='/blog' href="/blog" className='menu'>
+                        {/* <Nav.Link to='/blog' href="/blog" className='menu'>
                             <FaBlog className='me-2'/>
                             Blog
-                        </Nav.Link>
+                        </Nav.Link> */}
                     
                     </Nav>
 
                     <div className='my-2'>
-                            <a className='btn btn-primary'
-                            href='Contact.js' target='_blank'>
+                            <a className='btn btn-primary' to='/contact'
+                            href='/contact' target='_blank'>
                                 <FaPaperPlane className='me-2' />
                                 Hire Me
                             </a>

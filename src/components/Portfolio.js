@@ -19,7 +19,8 @@ function Portfolio() {
                         </p>
                     </div>
                     <a className='btn btn-primary'
-                            href='google.com' target='_blank'>
+                            to='/contact'
+                            href='/contact' target='_blank'>
                                 <FaPaperPlane className='me-2' />
                                 Hire Me
                     </a>

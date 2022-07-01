@@ -35,6 +35,12 @@
     font-size: 1.5rem !important;
 }
 
+.myhandles:hover {
+    font-size: 1.5rem !important;
+    color: rgb(244, 247, 248) !important;
+    /* border-color: rgb(59, 154, 192) !important; */
+}
+
 .menu {
     color: #fff !important;
 }

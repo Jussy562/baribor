@@ -1,5 +1,14 @@
-.project-cards {
+/* .project-cards {
     position: relative;
     height: 1098.8px;
-}
+} */
 
+/* .project-card {
+    height: 15rem !important;
+} */
+
+.link-over {
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}

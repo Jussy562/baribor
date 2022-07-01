@@ -11,9 +11,13 @@
     background: whitesmoke !important;
 }
 
-.headinz:before {
+.about-profile-image {
+    width: auto !important;
+}
+
+.headinz::before {
     content: "";
-    display: inline-block ;
+    display: inline-block;
     width: 5px;
     height: 100% !important;
     background: #1d5058;
@@ -27,7 +31,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .profile-teaser .profile-image {
+    .profile-teaser .about-profile-image {
         max-width: 400px !important;
     }
 }
@@ -37,3 +41,37 @@
         max-width: 250px !important;
     }
 }
+
+/* @media only screen and (max-width: 600px) {
+   .profile-image {
+        max-width: 250px !important;
+        border-radius: 200px !important;
+    }
+} */
+
+@media only screen and (max-width: 991.11px) {
+    .profile-teaser{
+         display: flex !important;
+         flex-direction: column-reverse !important;
+     }
+ }
+
+ @media only screen and (min-width: 991.98px) {
+    .about-profile-teaser .about-profile-image {
+        max-width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+   .about-profile-image {
+        max-width: 250px !important;
+        border-radius: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 991.11px) {
+    .about-profile-teaser{
+         display: flex !important;
+         flex-direction: column-reverse !important;
+     }
+ }

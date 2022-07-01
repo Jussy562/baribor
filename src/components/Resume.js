@@ -68,14 +68,14 @@ function Resume() {
                                 <p className='mb-0'>
                                         Junior software engineer, currently serving as an intern front-end developer 
                                         at FairexxSolutions, I have previously
-                                        served as an Data entry personnel and later as front-end interndeveloper
+                                        served as an Data entry personnel and later as front-end intern developer
                                         at
                                         MeshView Limited. I adopt a SCRUM/AGILE approach to software development
-                                        and I have been lucky to work with some of the latest technologies in webdevelopment, 
+                                        and I have been lucky to work with some of the latest technologies in web development, 
                                         I implemented a front-end
                                         development cycle at MeshView that helpedspeed up software development speed by 30%, 
                                         at Fairexx 
-                                        I am automatingmost of the manual tasks and 
+                                        I am automating most of the manual tasks and 
                                         increasing productivity by approx 20%, I 
                                         haveknowledge of multiple high-level programming 
                                         languages and can work withmodern software development tools and frameworks, I am a fast learner

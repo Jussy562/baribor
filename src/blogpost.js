@@ -1,10 +1,10 @@
- export const Projects = [
+export const Projects = [
     {
         id: 1,
         image: "/images/mysite.JPG",
-        name: "Portfolio Website",
+        title: "Portfolio Website",
         link: "https://www.bariborpaago.netlify.app",
-        description: "This portfolio website is responsive and clean. It is built with React and allow viewers to route between multi-pages. The interesting part is that potential employers can view and download your resume. It allow client to easily contact you",
+        para1: "This portfolio website is responsive and clean. It is built with React and allow viewers to route between multi-pages. The interesting part is that potential employers can view and download your resume. It allow client to easily contact you",
        
     },
 
@@ -27,7 +27,7 @@
         image: "/images/puree.JPG",
         name: "Pure Earth",
         link: "https://www.pureearth.netlify.app",
-        description: "We need to create awareness about our plant and the need to save it from climate change. Puree is an environmental website aim at sensitizing people about climate change effect on our plannet",
+        description: "We need to create aware about our plant and the need to save it from climate change. Puree is an environmental website aim at sensitizing people about climate change effect on our plannet",
     },
     {
         id: 5,
