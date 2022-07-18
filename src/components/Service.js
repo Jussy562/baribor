@@ -4,7 +4,7 @@ import ServiceFile from '../serviceapi';
 import Myservices from './Myservices';
 
 function Service() {
-    //Add some animation that fade in the service card. do it to all cards in the application 
+    //Add some animation to the service card text. do it to all cards in the application 
   return (
     <div className='service col-xm-12 col-sm-12 col-md-12 main-wrapper'>
         <section className='service-header theme-bg-light p-3 p-lg-5'>
