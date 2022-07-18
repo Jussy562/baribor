@@ -1,3 +1,4 @@
+import {motion} from 'framer-motion';
 import React from 'react';
 import { Navbar, Nav,} from 'react-bootstrap';
 import { AiFillTwitterSquare } from 'react-icons/ai';
@@ -33,7 +34,12 @@ function Header() {
                     
                     <Navbar.Collapse id="basic-navbar-nav" className='flex-column'>
                     <div className='profile-section pt-3 pt-lg-0'>
+                        <motion.div
+                            initial={{opacity: 0}}
+                            animate={{opacity: 1}}
+                        >
                             <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile-pic.png' alt='profile' />
+                        </motion.div>
                             <div className='bio mb-3'>
                                 Hi, my name is Baribor Paago and I'm a software engineer.
                                 Welcome to my personal website!

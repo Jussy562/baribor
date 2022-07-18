@@ -4,6 +4,7 @@ import './Header.css';
 import './Resume.css';
 import './About.css';
 import './blog.css';
+import './Service.css';
 import './Contact.css';
 import './bootstrap.min.css';
 import './Portfolio.css';

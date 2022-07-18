@@ -1,4 +1,7 @@
+import {motion, AnimatePresence} from 'framer-motion';
 import React from 'react';
+import ServiceFile from '../serviceapi';
+import Myservices from './Myservices';
 import Projects from '../project';
 import ProjectShow from './projectShow';
 import { BsArrowRightCircleFill } from 'react-icons/bs';
@@ -91,6 +94,30 @@ function About() {
                                 project portfolio
                             </a></span>.
                         </p>
+                    </div>
+                    <div className='serviceDiv row mb-5'>
+                        {/* {
+                            ServiceFile.map((item) => (
+                                <Myservices key={item.id} item={item}  /> 
+                            ))
+                        } */}
+                        <AnimatePresence>
+                            
+                            {
+                                ServiceFile.map((item) => (
+                                    <motion.div
+                                    key={item.id}
+                                    initial={{x: '100vw', opacity: 0}}
+                                    animate={{x: 0, opacity: 1}}
+                                    // exit={{opacity: 0}}
+                                    >
+                                        <Myservices key={item.id} item={item}  /> 
+                                    </motion.div>
+                                ))
+                            }
+                            
+                            
+                        </AnimatePresence>
                     </div>
                     <div className='row'>
                         <div className='item col-6 col-lg-3'>
@@ -233,7 +260,7 @@ function About() {
                 <div className='container'>
                     <h2 className='section-title font-weight-bold mb-5'>
                         
-                        Featured Projects
+                    What I have done
                     </h2>
                     <div className='row'>
                         {

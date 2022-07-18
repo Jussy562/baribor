@@ -18,9 +18,10 @@ p {
 
 .card-img{
   width: 100% !important;
-  height: 90% !important;
-  /* object-fit: cover !important; */
-  image-rendering: pixelated !important;
+  height: 100% !important;
+  object-fit: fill !important;
+  border-radius: 10px 0px 0px 10px !important;
+  /* image-rendering: pixelated !important; */
 }
 
 div, p {

@@ -12,3 +12,10 @@
    justify-content: center !important;
    align-items: center !important;
 }
+
+.project-card {
+    border-radius: 10px !important;
+    background: #f7f7f7 !important;
+    box-shadow:  5px 5px 10px #979797,
+             -5px -5px 10px #ffffff
+}
