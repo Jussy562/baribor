@@ -6,6 +6,13 @@ import Projects from '../project';
 import ProjectShow from './projectShow';
 import { BsArrowRightCircleFill } from 'react-icons/bs';
 import { HiDocumentText } from 'react-icons/hi';
+import { SiJavascript } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { SiBootstrap } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+import { SiHtml5 } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa';
+import { CgFigma } from 'react-icons/cg';
 // import { useState } from 'react';
 
 function About() {
@@ -123,9 +130,12 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                    <SiJavascript />
                                 </div>
-                                <h3 className='item-title'>JavaScript</h3>
+                                <h3 className='item-title'>
+                                    
+                                    JavaScript
+                                </h3>
                                 <div className='item-desc'>
                                     <p>JavaScript helps me to provide 
                                         interactivity or funnctionalities</p>
@@ -136,7 +146,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                    <FaReact />
                                 </div>
                                 <h3 className='item-title'>React</h3>
                                 <div className='item-desc'>
@@ -149,7 +159,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                   <SiBootstrap /> 
                                 </div>
                                 <h3 className='item-title'>Bootstrap</h3>
                                 <div className='item-desc'>
@@ -162,7 +172,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                    <SiCss3 />
                                 </div>
                                 <h3 className='item-title'>CSS</h3>
                                 <div className='item-desc'>
@@ -177,7 +187,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                    <SiHtml5 />
                                 </div>
                                 <h3 className='item-title'>HTML</h3>
                                 <div className='item-desc'>
@@ -189,7 +199,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                    <FaNodeJs />
                                 </div>
                                 <h3 className='item-title'>Node.js</h3>
                                 <div className='item-desc'>
@@ -202,7 +212,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-
+                                    <CgFigma />
                                 </div>
                                 <h3 className='item-title'>Figma</h3>
                                 <div className='item-desc'>
@@ -474,16 +484,16 @@ function About() {
                     <div className='row g-3'>
                         <div className='col-12 col-xlg-6'>
                         <label className='sr-only' for='cname'>Name</label>
-                        <input type='text' className='form-control' id='cname' name='name' placeholder='Name' minLength={2} required aria-required='true' />
+                        <input type='text' className='form-control allContact-input' id='cname' name='name' placeholder='Name' minLength={2} required aria-required='true' />
                         </div>
 
                         <div className='col-12 col-xlg-6'>
                         <label className='sr-only' for='cemail'>Email</label>
-                        <input type='email' className='form-control' placeholder='Email' required aria-required='true'/>
+                        <input type='email' className='form-control allContact-input' placeholder='Email' required aria-required='true'/>
                         </div>
                         <div className='col-12'>
                         <label className='sr-only' for='cmessage'>Your message</label>
-                        <textarea className='form-control' id='cmessage' name='message' placeholder='Enter your message...'
+                        <textarea className='form-control allContact-input' id='cmessage' name='message' placeholder='Enter your message...'
                         rows='10' required aria-required='true'></textarea>
                         </div>
                         <div className='form-group col-12'>

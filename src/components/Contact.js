@@ -74,16 +74,16 @@ function Contact() {
               <div className='row g-3'>
                 <div className='col-12 col-xlg-6'>
                   <label className='sr-only' for='cname'>Name</label>
-                  <input type='text' className='form-control' id='cname' name='name' placeholder='Name' minLength={2} required aria-required='true' />
+                  <input type='text' className='form-control allContact-input' id='cname' name='name' placeholder='Name' minLength={2} required aria-required='true' />
                 </div>
 
                 <div className='col-12 col-xlg-6'>
                   <label className='sr-only' for='cemail'>Email</label>
-                  <input type='email' className='form-control' placeholder='Email' required aria-required='true'/>
+                  <input type='email' className='form-control allContact-input' placeholder='Email' required aria-required='true'/>
                 </div>
                 <div className='col-12'>
                   <label className='sr-only' for='cmessage'>Your message</label>
-                  <textarea className='form-control' id='cmessage' name='message' placeholder='Enter your message...'
+                  <textarea className='form-control allContact-input' id='cmessage' name='message' placeholder='Enter your message...'
                   rows='10' required aria-required='true'></textarea>
                 </div>
                 <div className='form-group col-12'>

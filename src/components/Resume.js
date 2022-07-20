@@ -11,7 +11,7 @@ function Resume() {
                     <h2 className='heading mb-3'>
                         Online Resume
                     </h2>
-                    <a className='btn btn-primary' href='google.com' target={'_blank'}>
+                    <a className='btn btn-primary' href='/files/BariborPaago_resume.pdf' download target={'_blank'}>
                         Download PDF Version
                     </a>
                 </div>

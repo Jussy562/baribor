@@ -5,7 +5,7 @@ function Myservices({item}) {
   return (
     //   Style the card properly
     
-    <div className=' service-card mb-4 col-12'>
+    <div className=' service-card mb-4 col-12 p-0'>
     {/* 
     key={item.id}
     initial={{x: '100vh', opacity: 0}}

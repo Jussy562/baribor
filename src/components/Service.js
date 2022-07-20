@@ -1,4 +1,4 @@
-import {motion, AnimatePresence} from 'framer-motion';
+import {motion} from 'framer-motion';
 import React from 'react';
 import ServiceFile from '../serviceapi';
 import Myservices from './Myservices';
@@ -26,20 +26,20 @@ function Service() {
             </div>
         </section>
         <section className='service-list p-3 p-lg-5'>
-          <div className='serviceDiv row mb-5'>
+          <div className='serviceDiv row mb-5 p-0'>
               {/* {
                   ServiceFile.map((item) => (
                     <Myservices key={item.id} item={item}  /> 
                   ))
               } */}
-            <AnimatePresence>
+            {/* <AnimatePresence> */}
                 
                 {
                     ServiceFile.map((item) => (
                         <motion.div
                         key={item.id}
                         initial={{x: '100vw', opacity: 0}}
-                        animate={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3}}}
+                        whileInview={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 1}}}
                         // exit={{opacity: 0}}
                         >
                             <Myservices key={item.id} item={item}  /> 
@@ -48,7 +48,7 @@ function Service() {
                 }
                 
                 
-            </AnimatePresence>
+            {/* </AnimatePresence> */}
           </div>
 
           <div className='row'>
