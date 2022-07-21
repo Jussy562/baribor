@@ -35,6 +35,46 @@
     background: none !important;
 }
 
+.js-icon {
+    font-size: 40px !important;
+    color: yellow !important;
+    
+}
+
+.reactIcon {
+    font-size: 40px !important;
+    color: rgb(23, 114, 141) !important;
+}
+
+.bsIcon {
+    font-size: 40px !important;
+    color: purple !important;
+    
+}
+
+.htmlIcon {
+    font-size: 40px !important;
+    color: orangered !important;
+    
+}
+
+.cssIcon {
+    font-size: 40px !important;
+    color: rgb(245, 212, 27) !important;
+    
+}
+
+.nodeIcon {
+    font-size: 40px !important;
+    color: greenyellow !important;
+    
+}
+
+.figmaIcon {
+    font-size: 40px !important;
+    color: black !important;
+}
+
 
 
 @media only screen and (max-width: 576px) {

@@ -115,7 +115,8 @@ function About() {
                                     <motion.div
                                     key={item.id}
                                     initial={{x: '100vw', opacity: 0}}
-                                    animate={{x: 0, opacity: 1}}
+                                    animate={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 0.5}}}
+                                    
                                     // exit={{opacity: 0}}
                                     >
                                         <Myservices key={item.id} item={item}  /> 
@@ -130,7 +131,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                    <SiJavascript />
+                                    <SiJavascript className='js-icon'/>
                                 </div>
                                 <h3 className='item-title'>
                                     
@@ -146,7 +147,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                    <FaReact />
+                                    <FaReact className='reactIcon'/>
                                 </div>
                                 <h3 className='item-title'>React</h3>
                                 <div className='item-desc'>
@@ -159,7 +160,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                   <SiBootstrap /> 
+                                   <SiBootstrap className='bsIcon'/> 
                                 </div>
                                 <h3 className='item-title'>Bootstrap</h3>
                                 <div className='item-desc'>
@@ -172,7 +173,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                    <SiCss3 />
+                                    <SiCss3 className='cssIcon'/>
                                 </div>
                                 <h3 className='item-title'>CSS</h3>
                                 <div className='item-desc'>
@@ -187,7 +188,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                    <SiHtml5 />
+                                    <SiHtml5 className='htmlIcon'/>
                                 </div>
                                 <h3 className='item-title'>HTML</h3>
                                 <div className='item-desc'>
@@ -199,7 +200,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                    <FaNodeJs />
+                                    <FaNodeJs className='nodeIcon'/>
                                 </div>
                                 <h3 className='item-title'>Node.js</h3>
                                 <div className='item-desc'>
@@ -212,7 +213,7 @@ function About() {
                         <div className='item col-6 col-lg-3'>
                             <div className='item-inner'>
                                 <div className='item-icon'>
-                                    <CgFigma />
+                                    <CgFigma className='figmaIcon'/>
                                 </div>
                                 <h3 className='item-title'>Figma</h3>
                                 <div className='item-desc'>

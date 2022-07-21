@@ -1,7 +1,14 @@
-import {motion} from 'framer-motion';
+import {motion, AnimatePresence} from 'framer-motion';
 import React from 'react';
 import ServiceFile from '../serviceapi';
 import Myservices from './Myservices';
+import { SiJavascript } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { SiBootstrap } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+import { SiHtml5 } from 'react-icons/si';
+import { FaNodeJs } from 'react-icons/fa';
+import { CgFigma } from 'react-icons/cg';
 
 function Service() {
     //Add some animation to the service card text. Do it to all cards in the application 
@@ -32,14 +39,14 @@ function Service() {
                     <Myservices key={item.id} item={item}  /> 
                   ))
               } */}
-            {/* <AnimatePresence> */}
+            <AnimatePresence>
                 
                 {
                     ServiceFile.map((item) => (
                         <motion.div
                         key={item.id}
                         initial={{x: '100vw', opacity: 0}}
-                        whileInview={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 1}}}
+                        animate={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 0.5}}}
                         // exit={{opacity: 0}}
                         >
                             <Myservices key={item.id} item={item}  /> 
@@ -48,14 +55,14 @@ function Service() {
                 }
                 
                 
-            {/* </AnimatePresence> */}
+            </AnimatePresence>
           </div>
 
           <div className='row'>
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <SiJavascript className='js-icon'/>
                       </div>
                       <h3 className='item-title'>JavaScript</h3>
                       <div className='item-desc'>
@@ -68,7 +75,7 @@ function Service() {
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <FaReact className='reactIcon'/>
                       </div>
                       <h3 className='item-title'>React</h3>
                       <div className='item-desc'>
@@ -81,7 +88,7 @@ function Service() {
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <SiBootstrap className='bsIcon'/> 
                       </div>
                       <h3 className='item-title'>Bootstrap</h3>
                       <div className='item-desc'>
@@ -94,7 +101,7 @@ function Service() {
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <SiCss3 className='cssIcon'/>
                       </div>
                       <h3 className='item-title'>CSS</h3>
                       <div className='item-desc'>
@@ -109,7 +116,7 @@ function Service() {
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <SiHtml5 className='htmlIcon'/>
                       </div>
                       <h3 className='item-title'>HTML</h3>
                       <div className='item-desc'>
@@ -121,7 +128,7 @@ function Service() {
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <FaNodeJs className='nodeIcon'/>
                       </div>
                       <h3 className='item-title'>Node.js</h3>
                       <div className='item-desc'>
@@ -134,7 +141,7 @@ function Service() {
               <div className='item col-6 col-lg-3'>
                   <div className='item-inner'>
                       <div className='item-icon'>
-
+                        <CgFigma className='figmaIcon'/>
                       </div>
                       <h3 className='item-title'>Figma</h3>
                       <div className='item-desc'>
