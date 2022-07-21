@@ -47,7 +47,7 @@ function Service() {
                         key={item.id}
                         initial={{x: '100vw', opacity: 0}}
                         animate={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 0.5}}}
-                        // exit={{opacity: 0}}
+                        exit={{x: '100vw', opacity: 0}}
                         >
                             <Myservices key={item.id} item={item}  /> 
                         </motion.div>
