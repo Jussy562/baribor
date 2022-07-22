@@ -6,9 +6,14 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  scroll-behavior: smooth !important;
   /* scrollbar-color: rgb(18, 60, 70) !important; */
 }
 
+body {
+  position: relative !important;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

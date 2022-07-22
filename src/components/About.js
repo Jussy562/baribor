@@ -114,10 +114,11 @@ function About() {
                                 ServiceFile.map((item) => (
                                     <motion.div
                                     key={item.id}
-                                    initial={{x: '100vw', opacity: 0}}
-                                    animate={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 0.5}}}
+                                    initial={{x: '100vw', opacity: 0.5}}
+                                    animate={{x: 0, opacity: 1, transition: {type: 'spring', bounce: 0.3, delay: 0.5, duration:1, ease: 'easeOut'}}}
                                     
-                                    exit={{x:'100vw', opacity: 0}}
+                                    exit={{x:'100vw', opacity: 0, 
+                                        transition:{duration: 1, ease: 'easeIn'}}}
                                     >
                                         <Myservices key={item.id} item={item}  /> 
                                     </motion.div>
