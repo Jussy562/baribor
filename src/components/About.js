@@ -121,6 +121,7 @@ function About() {
                                     
                                     exit={{x:'100vw', opacity: 0, 
                                         transition:{duration: 1, ease: 'easeIn'}}}
+                                    className='p-0'
                                     >
                                         <Myservices key={item.id} item={item}  /> 
                                     </motion.div>
