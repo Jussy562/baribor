@@ -66,6 +66,8 @@
    .about-profile-image {
         max-width: 250px !important;
         border-radius: 200px !important;
+        margin-left:auto !important;
+        margin-right: auto !important;
     }
 }
 

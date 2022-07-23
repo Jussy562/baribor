@@ -44,6 +44,7 @@ function Header() {
                                 Hi, my name is Baribor Paago and I'm a software engineer.
                                 Welcome to my personal website!
                             </div>
+                            {/* exrternal link is not working */}
                             <ul className='social-list list-inline py-2 mx-auto'>
                                 <li className='list-inline-item'>
                                     <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
