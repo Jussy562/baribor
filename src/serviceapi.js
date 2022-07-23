@@ -3,7 +3,7 @@ export const ServiceFile = [
         id: 1,
         image: "/images/webdev.JPG",
         name: "WEB DEVELOPMENT",
-        description: "This portfolio website is responsive and clean. It is built with React and allow viewers to route between multi-pages. The interesting part is that potential employers can view and download your resume. It allow client to easily contact you",
+        description: "I build web application for individual and for businesses. Having a website gives you the opportunity get online presence for yourself or your business",
        
     },
 
@@ -11,7 +11,7 @@ export const ServiceFile = [
         id: 1,
         image: "/images/Research.JPG",
         name: "PROJECT RESEARCH",
-        description: "This portfolio website is responsive and clean. It is built with React and allow viewers to route between multi-pages. The interesting part is that potential employers can view and download your resume. It allow client to easily contact you",
+        description: "The importance of RESEARCH can not be over empasized. It helps you build a product that offers your users the solution they need. I can help you with the relevant research for your project.",
        
     },
 
@@ -19,7 +19,7 @@ export const ServiceFile = [
         id: 1,
         image: "/images/logo.JPG",
         name: "LOGO DESIGN",
-        description: "This portfolio website is responsive and clean. It is built with React and allow viewers to route between multi-pages. The interesting part is that potential employers can view and download your resume. It allow client to easily contact you",
+        description: "Your logo is your identity. It is your a way to brand your business. You need beautiful one and I can help you with that.",
        
     },
     

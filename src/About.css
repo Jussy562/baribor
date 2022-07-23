@@ -66,8 +66,14 @@
    .about-profile-image {
         max-width: 250px !important;
         border-radius: 200px !important;
-        margin-left:auto !important;
+        margin-left: auto !important;
         margin-right: auto !important;
+       
+    }
+    .image-about-plate {
+        display: flex !important;
+        align-items: center !important;
+        width: 100% !important;
     }
 }
 

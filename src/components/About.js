@@ -13,6 +13,7 @@ import { SiCss3 } from 'react-icons/si';
 import { SiHtml5 } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { CgFigma } from 'react-icons/cg';
+import Animatebox from './Animatebox';
 // import { useState } from 'react';
 
 function About() {
@@ -21,6 +22,7 @@ function About() {
     return (
         <div className='about  col-xm-12 col-sm-12 col-md-12 main-wrapper'>
             <section className='about-me-section p-3 p-lg-5  about-plate'>
+                <Animatebox />
                 <div className='container p-0'>
                     <div className='about-profile-teaser row'>
                         <div className='col'>
@@ -76,7 +78,7 @@ function About() {
                             </div>
 
                         </div>
-                        <div className='col-md-5 col-lg-5'>
+                        <div className='col-md-5 col-lg-5 image-about-plate'>
                             <img className='about-profile-image img-fluid mb-3 mb-lg-0
                             me-md-0 ' src='./images/profile.jpg' alt='image0' />
                         </div>
