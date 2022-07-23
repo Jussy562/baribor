@@ -21,7 +21,7 @@ function About() {
     return (
         <div className='about  col-xm-12 col-sm-12 col-md-12 main-wrapper'>
             <section className='about-me-section p-3 p-lg-5  about-plate'>
-                <div className='container'>
+                <div className='container p-0'>
                     <div className='about-profile-teaser row'>
                         <div className='col'>
                             <h2 className='name font-weight-bold mb-1'>
@@ -31,15 +31,17 @@ function About() {
                             <div className='tagline mb-3'>
                                 Software Engineer
                             </div>
-                            <div className='bio mb-4'>
+                            <div className='bio mb-4 p-0'>
                                 <p className='m-0 p-0'>
                                     I'm a software engineer with frontend development 
-                                    skills for scalable web applications. I write about software and tech
+                                    skills for scalable web applications. 
+                                    {/* I write about software and tech
                                     on <a className='text-link' href='google.com'>
                                         my blog
-                                    </a>. Check out my project <a className='text-link' href='Portfolio.js'>
+                                    </a>.  */}
+                                    Check out my project <a className='text-link' to='/portfolio' href='/portfolio'>
                                         portfolio
-                                    </a> and my <a className='text-link' href='/Resume.js'>
+                                    </a> and my <a className='text-link' to='/resume' href='/resume'>
                                         online rsume
                                     </a>.<br/>
                                     I have previously
@@ -59,14 +61,14 @@ function About() {
 
                             <div className='mb-4'>
                                 <a className='btn btn-primary me-2 mb-3'
-                                href='google.com'>
+                                to='/portfolio' href='/portfolio'>
                                     < BsArrowRightCircleFill className='me-2'/>
                                     <span className='d-none d-md-inline'>View </span>
                                     Portfolio
                                 </a>
 
                                 <a className='btn btn-secondary me-2 mb-3'
-                                href='google.com'>
+                                to='/resume' href='/resume'>
                                     < HiDocumentText className='me-2' />
                                     <span className='d-none d-md-inline'>View </span>
                                     Resume
@@ -83,7 +85,7 @@ function About() {
             </section>
 
             <section className='overview-section p-3 p-lg-5'>
-                <div className='container'>
+                <div className='container p-0'>
                     <h2 className='section-title fon-weight-bold mb-3'>
                         
                         What I do
@@ -94,7 +96,7 @@ function About() {
                             I build scalabe applications for clients all over the 
                             world. Below is a quick overview of my main technical 
                             skill sets. If you want to find out more about my experience, check out my 
-                            <span> <a className='text-link' to='resume' href='/resume'>
+                            <span> <a className='text-link' to='/resume' href='/resume'>
                                 online resume 
                             </a> </span>  
                             and <span><a className='text-link' to='/portfolio' href='/portfolio'>
@@ -269,7 +271,7 @@ function About() {
             </section> */}
 
             <section className='featured-section p-3 p-lg-5'>
-                <div className='container'>
+                <div className='container p-0'>
                     <h2 className='section-title font-weight-bold mb-5'>
                         
                     What I have done
@@ -478,7 +480,7 @@ function About() {
                 
             </section> */}
             <section className='contact-section px-3 py-5 p-md-5'>
-                <div className='container'>
+                <div className='container p-0'>
                     <form id='contact-form' className='contact-form col-lg-8 mx-lg-auto' method='post' action>
                     <h3 className='text-center mb-3'>
                         Get In Touch

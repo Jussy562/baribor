@@ -52,19 +52,19 @@ function Header() {
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.linkedin/in/bariborpaago' target={'_blank'} rel='noopener noreferrer'>
+                                    <a href='www.linkedin.com/in/bariborpaago' target={'_blank'} rel='noopener noreferrer'>
                                         <AiFillLinkedin className='myhandles' />
                                     </a>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.github.com/Jussy562' target={'_blank'}>
+                                    <a href='www.github.com/Jussy562'  target={'_blank'}>
                                         <FaGithubSquare className='myhandles' />
                                     </a>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
+                                    <a href='www.twitter.com/Justicepago'  target="_blank" rel='noopener noreferrer'>
                                         <FaFacebookSquare className='myhandles' />
                                     </a>
                                 </li>
@@ -109,7 +109,7 @@ function Header() {
 
                     <div className='my-2'>
                             <a className='btn btn-primary' to='/contact'
-                            href='/contact' target='_blank'>
+                            href='/contact'>
                                 <FaPaperPlane className='me-2' />
                                 Hire Me
                             </a>
