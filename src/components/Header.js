@@ -39,7 +39,7 @@ function Header() {
                             initial={{opacity: 0}}
                             animate={{opacity: 1}}
                         >
-                            <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile-pic.png' alt='profile' />
+                            <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile-2.png' alt='profile' />
                         </motion.div>
                             <div className='bio mb-3'>
                                 Hi, my name is Baribor Paago and I'm a software engineer.
