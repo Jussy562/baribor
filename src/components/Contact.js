@@ -5,6 +5,7 @@ import  { FaGithubSquare } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { RiWhatsappLine } from 'react-icons/ri';
+import Footer from './Footer';
 
 function Contact() {
   return (
@@ -93,6 +94,13 @@ function Contact() {
             </form>
             
           </div>
+        </section>
+        {/* footer start here */}
+        <section className='footer-section px-3 py-5 p-md-5'>
+            <div className='container footer-plate p-0 m-0'>
+                <hr />
+                <Footer />
+            </div>
         </section>
         <a href='https://wa.me/2349035401231' 
           target="_blank"

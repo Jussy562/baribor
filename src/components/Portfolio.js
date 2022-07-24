@@ -2,6 +2,7 @@ import React from 'react';
 import Projects from '../project';
 import ProjectPortfolio from './projectPortfolio';
 import {FaPaperPlane} from 'react-icons/fa';
+import Footer from './Footer';
 
 function Portfolio() {
 
@@ -35,6 +36,14 @@ function Portfolio() {
                                 ))
                         }     
                     </div>
+                </div>
+            </section>
+            {/* Portfolio ends here */}
+            {/* Footer start here */}
+            <section className='footer-section px-3 py-5 p-md-5'>
+                <div className='container footer-plate p-0 m-0'>
+                    <hr />
+                    <Footer />
                 </div>
             </section>
         </div>

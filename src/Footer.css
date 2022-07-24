@@ -1,0 +1,22 @@
+.footer-section {
+    padding-top: 0 !important;
+}
+.footer-plate {
+    width: 100% !important;
+}
+.footer {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: rgb(8, 85, 85) !important;
+    width: 100% !important;
+    height: auto !important;
+}
+.copyR-icon {
+    color: rgb(8, 85, 85) !important;
+}
+
+.copyText {
+    color: rgb(8, 85, 85);
+}

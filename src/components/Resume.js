@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaGithubSquare } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillTwitterSquare } from 'react-icons/ai';
+import Footer from './Footer';
 
 function Resume() {
     return (
@@ -102,7 +103,7 @@ function Resume() {
                                                 Fairexx Solutions
                                             </div>
                                             <div className='item-meta col-12 col-md-6 col-lg-6 text-muted text-end text-lg-end '>
-                                                2021-Present
+                                                2021-2022
                                             </div>
                                         </div>
                                         <div className='item-content'>
@@ -110,7 +111,7 @@ function Resume() {
                                                 <li>Responsible for transforming wireframe designs into codes.</li>
                                                 <li>Build Interactive and responsive user interfaces.</li>
                                                 <li>Work in agile and collaborative environment to deliver 
-                                                    tasksthe meet projects requirement.</li>
+                                                    tasks that meet projects requirement.</li>
                                             </ul>
                                         </div>
                                     </div>
@@ -183,7 +184,7 @@ function Resume() {
                             <aside className='resume-aside col-12 col-lg-5 col-xl-4 px-lg-4 pb-lg-4'>
                                 <section className='skills-section py-3'>
                                     <h3 className='text-uppercase resume-section-heading mb-4 relative-heading'>
-                                        Skilss
+                                        Skills
                                     </h3>
                                     <div className='item'>
                                         <h4 className='item-title'>
@@ -307,7 +308,15 @@ function Resume() {
                         </ul>
                     </div>
                 </article>
-            </div>          
+            </div>
+            {/* Resume ends here */}
+             {/* Footer start here  */}
+            <section className='footer-section px-3 py-5 p-md-5'>
+                <div className='container footer-plate p-0 m-0'>
+                    <hr />
+                    <Footer />
+                </div>
+            </section>
         </div>
     )
 }

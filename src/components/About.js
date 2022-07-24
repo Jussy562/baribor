@@ -14,6 +14,7 @@ import { SiHtml5 } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { CgFigma } from 'react-icons/cg';
 import Animatebox from './Animatebox';
+import Footer from './Footer';
 // import { useState } from 'react';
 
 function About() {
@@ -509,6 +510,12 @@ function About() {
                     </div>
                     </form>
                     
+                </div>
+            </section>
+            <section className='footer-section px-3 py-5 p-md-5'>
+                <div className='container footer-plate p-0 m-0'>
+                    <hr />
+                    <Footer />
                 </div>
             </section>
             

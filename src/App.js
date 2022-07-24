@@ -9,6 +9,7 @@ import './Contact.css';
 import './bootstrap.min.css';
 import './Portfolio.css';
 import './Animatebox.css';
+import './Footer.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';

@@ -9,6 +9,7 @@ import { SiCss3 } from 'react-icons/si';
 import { SiHtml5 } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { CgFigma } from 'react-icons/cg';
+import Footer from './Footer';
 
 function Service() {
     //Add some animation to the service card text. Do it to all cards in the application 
@@ -158,6 +159,14 @@ function Service() {
 
 
           </div>
+        </section>
+        {/* Services and skills ends here */}
+        {/* Footer start here */}
+        <section className='footer-section px-3 py-5 p-md-5'>
+            <div className='container footer-plate p-0 m-0'>
+                <hr />
+                <Footer />
+            </div>
         </section>
     </div>
   )
