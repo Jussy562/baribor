@@ -4,7 +4,7 @@ import { FaRegCopyright } from 'react-icons/fa';
 function Footer() {
   return (
     <footer className='footer p-0'>
-        <p>Made By Baribor, <FaRegCopyright className='copyR-icon'/> <span className='copyText'>BariborPaago2022</span></p>
+        <p><FaRegCopyright className='copyR-icon'/> <span className='copyText'>2022, By Baribor Paago</span></p>
     </footer>
   )
 }
