@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaGithubSquare } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillTwitterSquare } from 'react-icons/ai';
@@ -282,25 +283,25 @@ function Resume() {
                     <div className='resume-footer text-center'>
                         <ul className='resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted'>
                             <li className='list-inline-item mb-lg-0 me-3'>
-                                <a className='resume-link' href='wwww.github.com/Jussy562'>
+                                <Link to='/git' className='resume-link' href='https://www.github.com/Jussy562'>
                                 <FaGithubSquare className='resume-handles me-2' />
-                                wwww.github.com/Jussy562
+                                www.github.com/Jussy562
 
-                                </a>
+                                </Link>
                             </li>
                             <li className='list-inline-item mb-lg-0 me-3'>
-                                <a className='resume-link' href='wwww.linkedin.com/in/bariborpaago'>
+                                <Link to='/linkd' className='resume-link' href='https://www.linkedin.com/in/bariborpaago'>
                                 <AiFillLinkedin className='resume-handles me-2' />
-                                wwww.linkedin.com/in/bariborpaago
+                                www.linkedin.com/in/bariborpaago
 
-                                </a>
+                                </Link>
                             </li>
                             <li className='list-inline-item mb-lg-0 me-3'>
-                                <a className='resume-link' href='wwww.twitter.com/Justicepago'>
+                                <Link to='/twitter' className='resume-link' href='wwww.twitter.com/Justicepago'>
                                 <AiFillTwitterSquare className='resume-handles me-2' />
                                 @Justicepago
 
-                                </a>
+                                </Link>
                             </li>
                             
                         </ul>

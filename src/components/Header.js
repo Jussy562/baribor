@@ -1,5 +1,6 @@
 import {motion} from 'framer-motion';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav,} from 'react-bootstrap';
 import { AiFillTwitterSquare } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
@@ -47,33 +48,33 @@ function Header() {
                             {/* exrternal link is not working */}
                             <ul className='social-list list-inline py-2 mx-auto'>
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
+                                    <Link to='/twitter' href='https://www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
                                         <AiFillTwitterSquare className='myhandles' />
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.linkedin.com/in/bariborpaago' target={'_blank'} rel='noopener noreferrer'>
+                                    <Link to='/linkd' href='https://www.linkedin.com/in/bariborpaago' target={'_blank'} rel='noopener noreferrer'>
                                         <AiFillLinkedin className='myhandles' />
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.github.com/Jussy562'  target={'_blank'}>
+                                    <Link to='/git' href='https://www.github.com/Jussy562'  target={'_blank'}>
                                         <FaGithubSquare className='myhandles' />
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago'  target="_blank" rel='noopener noreferrer'>
+                                    <Link to='/facebook' href='https://www.facebook.com/justice.pago'  target="_blank" rel='noopener noreferrer'>
                                         <FaFacebookSquare className='myhandles' />
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li className='list-inline-item'>
-                                    <a href='www.twitter.com/Justicepago' target="_blank" rel='noopener noreferrer'>
+                                    <Link to='instagram' href='https://www.instagram.com/justicepaago' target="_blank" rel='noopener noreferrer'>
                                         <FaInstagramSquare className='myhandles' />
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
 

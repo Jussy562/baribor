@@ -17,6 +17,12 @@ import Resume from './components/Resume';
 import Contact from "./components/Contact";
 import Blog from "./components/Blog";
 import Service from "./components/Service";
+import RedirectTwitter from './components/RedirectTwitter';
+import RedirectLinkd from './components/RedirectLinkd';
+import RedirectGit from './components/RedirectGit';
+import RedirectFb from './components/RedirectFb';
+import RedirectInsta from './components/RedirectInsta';
+
 function App() {
   return (
     <div className="App">
@@ -31,6 +37,11 @@ function App() {
             <Route path='/contact' element={<Contact />} />
             <Route path='/blog' element={<Blog />} />
             <Route path='/service' element={<Service />} />
+            <Route path='/twitter' element={<RedirectTwitter />} />
+            <Route path='/linkd' element={<RedirectLinkd />} />
+            <Route path='/git' element={<RedirectGit />} />
+            <Route path='/facebook' element={<RedirectFb />} />
+            <Route path='/instagram' element={<RedirectInsta />} />
             {/* <Route path='/contact' element={<Contact />} /> */}
             
           </Routes>
