@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav,} from 'react-bootstrap';
 import { AiFillTwitterSquare } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { FaGithubSquare } from 'react-icons/fa';
+import { FaGithubSquare, FaHamburger } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
@@ -29,18 +29,22 @@ function Header() {
                 <Navbar bg="dark" expand="lg" className='flex-column mynav'>
                     <div className='navview'>
                         <h1 className='blog-name pt-lg-4 mb-0 mx-auto'>BARIBOR PAAGO</h1>
-                        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <Navbar.Toggle aria-controls="basic-navbar-nav">
+                            <span>
+                                <FaHamburger className='menuIcon' />
+                            </span>
+                        </Navbar.Toggle>
                     </div>
                     
                     
                     <Navbar.Collapse id="basic-navbar-nav" className='flex-column'>
-                    <div className='profile-section pt-3 pt-lg-0'>
-                        <motion.div
-                            initial={{opacity: 0}}
-                            animate={{opacity: 1}}
-                        >
-                            <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile-2.png' alt='profile' />
-                        </motion.div>
+                        <div className='profile-section pt-3 pt-lg-0'>
+                            <motion.div
+                                initial={{opacity: 0}}
+                                animate={{opacity: 1}}
+                            >
+                                <img className='profile-image mb-3 mt-4 rounded-circle mx-auto' src='/images/profile-2.png' alt='profile' />
+                            </motion.div>
                             <div className='bio mb-3'>
                                 Hi, my name is Baribor Paago and I'm a software engineer.
                                 Welcome to my personal website!

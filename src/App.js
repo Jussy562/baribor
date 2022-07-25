@@ -23,6 +23,7 @@ import RedirectLinkd from './components/RedirectLinkd';
 import RedirectGit from './components/RedirectGit';
 import RedirectFb from './components/RedirectFb';
 import RedirectInsta from './components/RedirectInsta';
+import Schedule from './components/Schedule';
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
           
       </Router>
           
-      
+      <Schedule />
       
         
         

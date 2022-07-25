@@ -20,6 +20,17 @@
     width: 100% !important;
 }
 
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.menuIcon {
+    color: whitesmoke !important;
+}
+
 .mynav {
     padding: 1.5rem 1rem !important;
 
