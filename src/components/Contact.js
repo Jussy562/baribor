@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AiFillTwitterSquare }  from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 import  { FaGithubSquare } from 'react-icons/fa';
@@ -23,33 +24,33 @@ function Contact() {
                 <p>Want to get connected? Follow me on the social handles below.</p>
                 <ul className='list-inline mb-0'>
                   <li className='list-inline-item mb-3'>
-                    <a href='www.twitter.com/Justicepago'>
+                    <Link to='/twitter' href='https://www.twitter.com/Justicepago'>
                       <AiFillTwitterSquare className='myhandles' />
-                    </a>
+                    </Link>
                   </li>
 
                   <li className='list-inline-item mb-3'>
-                      <a href='www.linkedin/in/bariborpaago' target={'_blank'}>
+                      <Link to='/linkd' href='https://www.linkedin/in/bariborpaago' target={'_blank'}>
                           <AiFillLinkedin className='myhandles' />
-                      </a>
+                      </Link>
                   </li>
 
                   <li className='list-inline-item'>
-                    <a href='www.github.com/Jussy562' target={'_blank'}>
+                    <Link to='/git' href='https://www.github.com/Jussy562' target={'_blank'}>
                         <FaGithubSquare className='myhandles' />
-                    </a>
+                    </Link>
                   </li>
 
                   <li className='list-inline-item mb-3'>
-                    <a href='www.twitter.com/Justicepago'>
+                    <Link to='/facebook' href='https://www.facebook.com/justice.pago'>
                         <FaFacebookSquare className='myhandles' />
-                    </a>
+                    </Link>
                   </li>
 
                   <li className='list-inline-item mb-3'>
-                      <a href='www.twitter.com/Justicepago'>
+                      <Link to='/instagram' href='www.instagram.com/justicepaago'>
                           <FaInstagramSquare className='myhandles' />
-                      </a>
+                      </Link>
                   </li>
                 </ul>
                 {/* End of social handles */}
